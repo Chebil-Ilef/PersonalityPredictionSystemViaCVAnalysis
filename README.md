@@ -2,8 +2,8 @@
 
 This project focuses on predicting personality types using the Myers-Briggs Type Indicator (MBTI) framework through the utilization of Cross-Validation (CV) techniques.
 
-Data used:
- * mbti_1.csv
+Data used is from Kaggle [MBTI Data](https://www.kaggle.com/datasets/datasnaek/mbti-type) & [Meta Kaggle Data](https://www.kaggle.com/datasets/kaggle/meta-kaggle?select=Users.csv) 
+ * mbti_1.csv 
  * Users.csv
  * ForumMessages.csv
 
@@ -26,3 +26,7 @@ So as a result we have 16 personality types: ESTJ, ENTJ, ESFJ, ENFJ, ISTJ, ISFJ,
 ## CV: Cross-validation
 
 Cross-validation (CV) is a technique used to assess the performance of a machine learning model on unseen data. It involves splitting the dataset into multiple subsets (folds), training the model on a portion of the data, and evaluating it on the remaining portion. This process is repeated several times with different combinations of training and evaluation sets. The results are then averaged to provide a more reliable estimate of the model's performance.
+
+## Result
+
+![Result Image](result.png)
